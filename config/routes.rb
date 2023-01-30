@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
 
   get "/dogs" => "dogs#index"
+  post "/dogs" => "dogs#create"
 end
